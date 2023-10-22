@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxuts.Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="89.0" style="-fx-background-color: #07374C;">
+               <children>
+                  <AnchorPane layoutY="185.0" prefHeight="94.0" prefWidth="95.0" style="-fx-background-color: #094660;" />
+                  <AnchorPane layoutY="91.0" prefHeight="94.0" prefWidth="95.0" style="-fx-background-color: #07374C;" />
+                  <AnchorPane prefHeight="94.0" prefWidth="95.0" style="-fx-background-color: #07374C;" />
+                  <ImageView fitHeight="70.0" fitWidth="65.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="65.0" layoutX="11.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/2348926.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="57.0" layoutX="17.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/search-icon-sl7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="53.0" layoutX="17.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/logging-out-2355227_1280.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="16.0" layoutY="327.0" mnemonicParsing="false" onAction="#loginpage" prefHeight="53.0" prefWidth="54.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="17.0" layoutY="204.0" mnemonicParsing="false" onAction="#explorepage" prefHeight="53.0" prefWidth="54.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="9.0" layoutY="106.0" mnemonicParsing="false" onAction="#chatpage" prefHeight="66.0" prefWidth="66.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#profilepage" prefHeight="66.0" prefWidth="66.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="57.0" fitWidth="75.0" layoutX="113.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+               </image>
+            </ImageView>
+            <Text fill="#848282" layoutX="180.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User22@email.com">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+            <Text fill="#616161" layoutX="177.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User22">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="94.0" prefHeight="54.0" prefWidth="426.0" style="-fx-background-color: #07374C;">
+               <children>
+                  <Text fill="WHITE" layoutX="2.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Find another user">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Text>
+                  <TextField layoutX="171.0" layoutY="15.0" prefHeight="26.0" prefWidth="192.0" promptText="search" style="-fx-background-radius: 10;" />
+                  <ImageView fitHeight="28.0" fitWidth="24.0" layoutX="372.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../img/search-icon-sl7.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button alignment="CENTER" layoutX="309.0" layoutY="83.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="+add" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="385.0" layoutY="83.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="send message" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="57.0" fitWidth="75.0" layoutX="113.0" layoutY="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+               </image>
+            </ImageView>
+            <Text fill="#848282" layoutX="180.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User32@email.com">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="177.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User32">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" layoutX="309.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="+add" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="385.0" layoutY="150.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="send message" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="57.0" fitWidth="75.0" layoutX="113.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+               </image>
+            </ImageView>
+            <Text fill="#848282" layoutX="180.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User252@email.com">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="177.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User252">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Button alignment="CENTER" layoutX="309.0" layoutY="217.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="65.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="+add" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="385.0" layoutY="217.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="send message" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="205.0" layoutY="316.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="171.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="+add by phone number" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="205.0" layoutY="356.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="171.0" style="-fx-background-color: #249FD3; -fx-background-radius: 15;" text="+add by email" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

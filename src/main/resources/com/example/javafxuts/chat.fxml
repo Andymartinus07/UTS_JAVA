@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxuts.Controller">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="95.0" layoutY="22.0" prefHeight="66.0" prefWidth="234.0" style="-fx-background-color: #D1DCE1;" />
+            <AnchorPane prefHeight="400.0" prefWidth="89.0" style="-fx-background-color: #07374C;">
+               <children>
+                  <AnchorPane layoutY="185.0" prefHeight="94.0" prefWidth="95.0" style="-fx-background-color: #07374C;" />
+                  <AnchorPane layoutY="91.0" prefHeight="94.0" prefWidth="95.0" style="-fx-background-color: #094660;" />
+                  <AnchorPane prefHeight="94.0" prefWidth="95.0" style="-fx-background-color: #07374C;" />
+                  <ImageView fitHeight="70.0" fitWidth="65.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="65.0" layoutX="11.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/2348926.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="57.0" layoutX="17.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/search-icon-sl7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="55.0" fitWidth="53.0" layoutX="17.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/logging-out-2355227_1280.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="16.0" layoutY="327.0" mnemonicParsing="false" onAction="#loginpage" prefHeight="53.0" prefWidth="54.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="17.0" layoutY="204.0" mnemonicParsing="false" onAction="#explorepage" prefHeight="53.0" prefWidth="54.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="9.0" layoutY="106.0" mnemonicParsing="false" onAction="#chatpage" prefHeight="66.0" prefWidth="66.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#profilepage" prefHeight="66.0" prefWidth="66.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="57.0" fitWidth="75.0" layoutX="98.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+               </image>
+            </ImageView>
+            <Text fill="#848282" layoutX="175.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You : SampleTextABCDEF">
+               <font>
+                  <Font size="13.0" />
+               </font></Text>
+            <Text fill="#616161" layoutX="162.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User2">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="19.0" fitWidth="19.0" layoutX="155.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../img/4105933-check-checked-checklist-mark-tick-todo-list_113935.png" />
+               </image>
+            </ImageView>
+            <Text fill="#535050" layoutX="271.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7:09 PM">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="57.0" fitWidth="75.0" layoutX="98.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+               </image>
+            </ImageView>
+            <Text fill="#848282" layoutX="164.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SampleTextABCDEFGHIJKL">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="162.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User3">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#535050" layoutX="271.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6:14 PM">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="57.0" fitWidth="75.0" layoutX="98.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+               </image>
+            </ImageView>
+            <Text fill="#848282" layoutX="164.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SampleTextABCDEFGHIJ">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Text fill="#616161" layoutX="162.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User4">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#535050" layoutX="271.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3:36 PM">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Text>
+            <Circle fill="DODGERBLUE" layoutX="315.0" layoutY="198.0" radius="11.0" stroke="WHITE" strokeType="INSIDE" />
+            <Text fill="WHITE" layoutX="310.0" layoutY="203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <AnchorPane layoutX="329.0" prefHeight="400.0" prefWidth="190.0" style="-fx-background-color: #CECECE;">
+               <children>
+                  <AnchorPane layoutX="1.0" prefHeight="54.0" prefWidth="190.0" style="-fx-background-color: #07374C;">
+                     <children>
+                        <Text fill="WHITE" layoutX="22.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User2">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="110.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Javaandi/Javafx-uts/src/img/Video_Calling.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="34.0" fitWidth="33.0" layoutX="153.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Javaandi/Javafx-uts/src/img/Call-Button-PNG-Clipart.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Label alignment="CENTER" layoutX="51.0" layoutY="76.0" prefHeight="25.0" prefWidth="126.0" style="-fx-background-color: #0D6083; -fx-background-radius: 10;" text="SampleTextABCDEF" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Label>
+                  <ImageView fitHeight="38.0" fitWidth="37.0" layoutX="9.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Javaandi/Javafx-uts/src/img/981099.png" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane layoutX="1.0" layoutY="345.0" prefHeight="54.0" prefWidth="190.0" style="-fx-background-color: #07374C;">
+                     <children>
+                        <TextField layoutX="4.0" layoutY="14.0" prefHeight="26.0" prefWidth="142.0" promptText="Message" style="-fx-background-radius: 10;" />
+                        <ImageView fitHeight="22.0" fitWidth="23.0" layoutX="122.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Javaandi/Javafx-uts/src/img/1411578.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="40.0" fitWidth="33.0" layoutX="151.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="file:/C:/Javaandi/Javafx-uts/src/img/6946236.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="95.0" layoutY="344.0" prefHeight="55.0" prefWidth="234.0" style="-fx-background-color: #D1DCE1;">
+               <children>
+                  <Button layoutX="16.0" layoutY="-13.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="198.0" style="-fx-background-color: transparent;" text="+">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
